@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.API\\Holiday.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj",
+        "projectName": "Holiday.Common",
+        "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj",
+        "packagesPath": "C:\\Users\\Rohit Sindhu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rohit Sindhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.API\\Holiday.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.API\\Holiday.API.csproj",
+        "projectName": "Holiday.API",
+        "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.API\\Holiday.API.csproj",
+        "packagesPath": "C:\\Users\\Rohit Sindhu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rohit Sindhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj"
+              },
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.BL\\Holiday.BL.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.BL\\Holiday.BL.csproj"
+              },
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj"
+              },
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\Holiday.Model.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\Holiday.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.BL\\Holiday.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.BL\\Holiday.BL.csproj",
+        "projectName": "Holiday.BL",
+        "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.BL\\Holiday.BL.csproj",
+        "packagesPath": "C:\\Users\\Rohit Sindhu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rohit Sindhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj"
+              },
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj"
+              },
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\Holiday.Model.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\Holiday.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj",
+        "projectName": "Holiday.Entity",
+        "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj",
+        "packagesPath": "C:\\Users\\Rohit Sindhu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rohit Sindhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\Holiday.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\Holiday.Model.csproj",
+        "projectName": "Holiday.Model",
+        "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\Holiday.Model.csproj",
+        "packagesPath": "C:\\Users\\Rohit Sindhu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rohit Sindhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\Holiday.Entity\\Holiday.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

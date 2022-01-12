@@ -1,0 +1,9 @@
+C:\Users\Rohit Sindhu\source\repos\CommonProject\bin\Debug\netcoreapp3.1\Holiday.Common.deps.json
+C:\Users\Rohit Sindhu\source\repos\CommonProject\bin\Debug\netcoreapp3.1\Holiday.Common.dll
+C:\Users\Rohit Sindhu\source\repos\CommonProject\bin\Debug\netcoreapp3.1\Holiday.Common.pdb
+C:\Users\Rohit Sindhu\source\repos\CommonProject\obj\Debug\netcoreapp3.1\Holiday.Common.csprojAssemblyReference.cache
+C:\Users\Rohit Sindhu\source\repos\CommonProject\obj\Debug\netcoreapp3.1\Holiday.Common.csproj.CoreCompileInputs.cache
+C:\Users\Rohit Sindhu\source\repos\CommonProject\obj\Debug\netcoreapp3.1\Holiday.Common.AssemblyInfoInputs.cache
+C:\Users\Rohit Sindhu\source\repos\CommonProject\obj\Debug\netcoreapp3.1\Holiday.Common.AssemblyInfo.cs
+C:\Users\Rohit Sindhu\source\repos\CommonProject\obj\Debug\netcoreapp3.1\Holiday.Common.dll
+C:\Users\Rohit Sindhu\source\repos\CommonProject\obj\Debug\netcoreapp3.1\Holiday.Common.pdb

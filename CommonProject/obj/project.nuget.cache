@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i/CTWjN8vnnON//q7kfD2dzlPI9Qx9T02ANC+P9X/lqXpRCam6QJWanAENxQ5r6ztsK6YEP72tt+lykCWcJTIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rohit Sindhu\\source\\repos\\InterviewTask\\CommonProject\\Holiday.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rohit Sindhu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
